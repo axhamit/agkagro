@@ -1,0 +1,27 @@
+.ppImage{
+    width: 1300px;
+    height: 550px;
+    margin: 4.5rem auto 2.5rem;
+}
+.ppTitle{
+    color: black;
+    font-size: 38px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.contentContainer{
+    display:flex;
+    flex-direction: column;
+    margin: 0 6rem;
+}
+.headingTitle{
+    color: #212121;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+.ppPara{
+    color: #565656;
+    font-size: 18px;
+}

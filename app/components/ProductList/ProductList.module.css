@@ -1,0 +1,52 @@
+.serviceContainer{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: 5% 10%;
+}
+
+.categorySelection{
+    display: flex;
+    flex-direction: column;
+    background: rgb(245, 244, 244);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 12%;
+    left: 0;
+}
+.btnBlack{
+    background: var(--color-primary);
+    color: white;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.2rem; 
+    cursor: pointer;
+}
+.btnNormal{
+    color: black;
+    padding: 1.2rem 1.4rem;
+    background: transparent;
+    border-bottom: 1px solid  rgb(224, 223, 223);
+    font-size: 1.2rem; 
+    cursor: pointer;
+}
+.prodDisplay{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap: 0.7rem; 
+    row-gap: 2.5rem; 
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+}
+@media screen and (max-width: 600px){
+
+.serviceContainer{
+   grid-template-columns: 100%;
+}
+.prodDisplay{
+    margin: 2rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}

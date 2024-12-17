@@ -1,0 +1,147 @@
+.contactHeader{
+    margin-top: 4rem;
+    width: 100%;
+    height: 36vh;
+    background: url('../public/assets/brown-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactHead{
+    color: #fff;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 1rem;
+}
+.contactSubhead{
+    color: white;
+    font-weight: 200;
+}
+.contactContainer{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 4rem 0;
+    color: #fff;
+}
+.contactBox{
+  width: 300px;
+  padding: 1.6rem 1.8rem;
+  background: var(--color-gray-0);
+  border-radius: 0.6rem;
+  color: #fff;
+}
+.contactBox h4{
+    color: #fff;
+    font-weight: 100;
+    font-style: oblique;
+    margin-bottom: 1rem;
+}
+.contactBox p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.contactBox:first-child{
+    background: var(--color-primary);
+}
+.contactBox:nth-child(2){
+    background: var(--color-green);
+}
+.contactBox:last-child{
+    background: var(--color-yellow);
+}
+.addressBox{
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+    display: grid;
+    grid-template-columns: 49% 50%;
+    margin-left: 14%;
+    margin-right: 14%;
+    height: fit-content;
+}
+.contactBoxRight{
+    background: url('../public/assets/form-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 40px;  
+}
+.contactBoxRight form input, .contactBoxRight form textarea{
+    display: block;
+    width: 100%;
+    background: #ebecfe;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 0.6rem;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+.contactBoxRight form label{
+    color: var(--color-grey);
+}
+.formBtn{
+    display:inline-block;
+    width: fit-content;
+    padding: 1rem 1.2rem;
+    border-radius: 0.6rem;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 16px;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+.contactBoxRight p{
+    font-weight: 500;
+    color: var(--color-yellow);
+    font-size: 22px;
+    margin-bottom: 0.8rem;
+}
+.contactBoxRight h4{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color-black);
+    margin-bottom: 1.2rem;
+}
+.responsiveMap{
+    overflow: hidden;
+    height: 100%;
+    padding-bottom: 40%;
+    position: relative;
+}
+.responsiveMap iframe{
+    position: absolute;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+@media screen and (max-width:600px){
+    .contactContainer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2.5rem auto;
+        gap: 2rem;
+    }
+    .addressBox{
+        grid-template-columns: 100%;
+    }
+    .responsiveMap{
+        overflow: hidden;
+        height: 320px;
+        padding-bottom: 30%;
+        position: relative;
+    }
+    .contactBoxRight{
+        margin-left: 0px; 
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,287 @@
+.abtHeader{
+    margin-top: 4rem;
+    width: 100%;
+    height: 36vh;
+    background: url('../public/assets/brown-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.abtHead{
+    color: #fff;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 1rem;
+}
+.abtMission{
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    display: grid;
+    grid-template-columns: 50% 60%;
+    margin-left: 12%;
+    height: fit-content;
+}
+.missionRight{
+    margin-left: -6rem;
+    margin-bottom: 2rem;
+}
+.missionLeft{
+    margin-bottom: 2rem;
+}
+.abtSubhead{
+    color: white;
+    font-weight: 200;
+    margin-bottom: 0.8rem;
+}
+.abtHeading{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color-black);
+    width: 600px;
+}
+.missionGreentext{
+    color: var(--color-primary);
+    margin: 1.2rem 0;
+    font-size: 18px;
+    font-weight: 600;
+    width: 600px;
+}
+.abtBen{
+    color: var(--color-primary);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+.missonDesc{
+    color: #878680;
+    line-height: 1.4;
+    width: 600px;
+    font-size: 1.1rem;
+}
+.missionImage{
+    width: 500px;
+    height: 650px;
+    z-index: -99;
+}
+.greenPlant{
+  height: 290px;
+  width: 200px;
+  position: absolute;
+  bottom: 9%;
+  left: 9%;
+}
+.missionBenefits{
+    display: flex;
+    gap: 40px;
+    margin-left: -13rem;
+    z-index: 10;
+}
+.missonBox{
+    margin-top: 1.5rem;
+    padding: 1.4rem 1.4rem;
+    width: 300px;
+    height: fit-content;
+    background: var(--color-yellow);
+}
+.missonBox:first-child{
+    background: var(--color-yellow);
+}
+.missonBox:nth-child(2){
+    background-color: var(--color-green);
+}
+.missonBox{
+    background-color: var(--color-primary);
+}
+.mbIcon{
+    width: 60px;
+    height: 60px;
+}
+.mbHeadone, .mbHeadtwo, .mbHeadthree{
+    margin: 0.7rem 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+.mbHeadone{
+    color: var(--color-black);
+}
+.mbHeadtwo{
+    color: var(--color-black);
+}
+.mbHeadthree{
+    color: whitesmoke;
+}
+.mbDesc{
+    font-size: 16px;
+}
+.mbDescthree{
+    color: whitesmoke;
+}
+.teamHead{
+    font-weight: 500;
+    color: var(--color-yellow);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+.ceoImage{
+    width: 450px;
+    height: 550px;
+}
+.abtCeo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5% 15%;
+}
+.ceoSubhead{
+    font-weight: 500;
+    color: var(--color-yellow);
+    font-size: 22px;
+    margin-bottom: 0.8rem;
+}
+.ceoHead{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color-black);
+    width: 600px;
+}
+.ceoLeft{
+    position: relative;
+}
+.ceoDetails{
+    background: var(--color-green);
+    border-radius: 0.6rem;
+    width: fit-content;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    right: 5%;
+    padding: 1.1rem 1.4rem;
+}
+.cName{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-black);
+    margin-bottom: 0.6rem;
+}
+.cDesig{
+    color: #363635;
+}
+.ceoPara{
+    color: #878680;
+    line-height: 1.4;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width:600px){
+    .abtHeader{
+        width: 100%;
+    }
+    .missionLeft{
+        display: none;
+    }
+    .abtMission{
+        grid-template-columns:100%;
+    }
+    .missionRight{
+        grid-template-columns:100%;
+    }
+    .missionBenefits{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        margin-left: 0rem;
+    }
+    .abtSubhead{
+        text-align: center;
+    }
+    .abtHeading{
+        font-size: 2.4rem;
+        line-height: 1.4;
+        width: 85%;
+        margin: 5% 10%;
+    }
+    
+    .missonBox{
+        margin-top: 1.5rem;
+        padding: 1rem 1rem;
+        width: 310px;
+        height: fit-content;
+        background: var(--color-yellow);
+    }
+    .abtCeo{
+        grid-template-columns: 100%;
+        margin: 5% 10%;
+    }
+    .ceoImage{
+        width: 310px;
+        height: 350px;
+    }
+    .missonDesc{
+        line-height: 1.4;
+        width: 85%;
+        font-size: 1.1rem;
+        margin: 5% 10%;
+    }
+    .ceoHead{
+        font-size: 1.5rem;
+        width: auto;
+    }
+    .ceoPara{
+        line-height: 1.4;
+        font-size: 1.1rem;
+        max-width: auto;
+        margin: auto;
+    }
+    .ceoDetails{
+        width:250px;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        padding: 1.1rem 1.2rem;
+        border-radius: 0rem;
+    }
+    .benBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .missionContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 8%;
+    }
+    .abtHeading{
+        font-size: 1.2rem;
+    }
+    .missionGreentext{
+       display: none;
+    }
+    .abtBen{
+        font-size: 22px;
+        margin: 1rem 0;
+    }
+    .mbHeadthree{
+        color: var(--color-black);
+    }
+    .ceoSubhead{
+        margin-top: 2rem;
+        font-weight: 500;
+        color: var(--color-yellow);
+        font-size: 22px;
+        margin-bottom: 0.8rem;
+    }
+    .mbDescthree{
+        color: var(--color-black);
+    }
+    .ceoImage{
+        margin-top: 2rem;
+    }
+}

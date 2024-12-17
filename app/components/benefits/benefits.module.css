@@ -1,0 +1,143 @@
+.benefitsContainer{
+    background: #fff;
+    
+}
+.benefitsContent{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 200px;
+    padding-top: 6rem;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 4rem;
+}
+.benHeading{
+    font-weight: 500;
+    color: var(--color-yellow);
+    font-size: 22px;
+    margin-bottom: 0.8rem;
+}
+.benTitle{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color-black);
+    width: 550px;
+}
+.farmImage{
+    width: 600px;
+    height: 600px;
+}
+.benDesc{
+    color: #878680;
+    margin-top: 1rem;
+    line-height: 1.4;
+    font-size: 1.1rem;
+}
+.benPoint{
+    display: flex;
+    gap: 30px;
+    margin-top: 1.4rem;
+}
+.benTick{
+    width: 40px;
+    height: 40px;
+}
+.pointHeading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-black);
+    width: 550px;
+}
+.pointDesc{
+    color: #878680;
+    line-height: 1.4;
+    width: 400px;
+    font-size: 1.1rem;
+}
+.benPointhead{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.benBtn{
+    width: fit-content;
+    padding: 1rem 1.2rem;
+    border-radius: 0.8rem;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 1.9rem;
+}
+.boardText{
+    position: absolute;
+    top: 41%;
+    left: 32%;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+}
+@media screen and (max-width:600px){
+    .benefitsContent{
+    grid-template-columns: 100%;
+    padding-top: 4rem;
+    gap:0px;  
+    }
+    .farmImage{
+        width: 320px;
+        height: 400px;
+    }
+    .benefitsLeft{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .benHeading{
+        margin-top: 1.7rem;
+        font-size: 26px;
+        margin-bottom: 0.8rem;
+        text-align: center;
+    }
+    .benTitle{
+        font-size: 1.4rem;
+        width: 320px;
+        text-align: center;
+    }
+    .benTick{
+        width: 28px;
+        height: 28px;
+    }
+    .pointHeading{
+        font-size: 1.4rem;
+        width: 100%;
+    }
+    .pointDesc{
+        
+        line-height: 1.4;
+        width: 290px;
+        font-size: 1.2rem;
+    }
+    .benPoint{
+        gap: 15px;
+        margin: 1.4rem auto;
+    }
+    .benDesc{
+        margin-top: 1rem;
+        width: 290px;
+        font-size: 1.2rem;
+    }
+    .boardText{
+        position: absolute;
+        top: 13.5%;
+        left: 47%;
+        width: 120px;
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .benfitBtn{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+    }
+}

@@ -1,0 +1,21 @@
+.footer{
+    background: black;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    padding: 40px;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+@media screen and (max-width:600px){
+    .footer{
+        flex-direction: column;
+        width: 100%;
+    }
+}

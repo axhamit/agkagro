@@ -1,0 +1,160 @@
+.introContainer{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    margin-top: 6rem;
+    gap: 260px;
+}
+.introsubHead{
+    font-weight: 500;
+    color: var(--color-yellow);
+    font-size: 22px;
+    margin-bottom: 0.8rem;
+}
+.introIcon{
+    width: 60px;
+    height: 60px;
+}
+.introHeading{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color-black);
+    width: 550px;
+}
+.introGreenHead{
+    color: var(--color-primary);
+    margin: 1.2rem 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.introDesc{
+    width: 600px;
+    margin-bottom: 1.3rem;
+    color: #878680;
+    line-height: 1.4;
+    font-size: 1.1rem;
+}
+.introtext p{
+    color: #878680;
+    line-height: 1.4;
+    font-size: 1.1rem;
+}
+.introFeatures{
+    display: flex;
+    gap: 80px;
+    margin-top: 1rem;
+}
+.introCard{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.introCardText{
+    color: var(--color-black);
+    font-weight: 600;
+    font-size: 1.2rem;
+    width: 200px;
+}
+.mainText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    gap: 0.5rem;
+}
+.introtext{
+    display: flex;
+    gap: 20px;
+}
+.introTick{
+    width: 20px;
+    height: 20px;
+}
+.introBig{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 17%;
+}
+.introSmall{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 55%;
+    left: 14%;
+}
+.introBtn{
+    display:inline-block;
+    width: fit-content;
+    padding: 1rem 1.2rem;
+    border-radius: 0.8rem;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    .introContainer{
+        grid-template-columns: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    .introLeft{
+        display: none;
+    }
+    .introFeatures{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .introDesc{
+        width: 400px;
+        
+    }
+    .introHeading{
+        font-size: 1.4rem;
+        width: 320px;
+        text-align: center;
+    }
+    .introGreenHead{
+        display: none;
+    }
+    .introDesc{
+        margin: 1.6rem 0;
+        font-size: 1.2rem;
+        width: 300px;
+        line-height: 1.4;
+    }
+    .introtext p{
+        width: 280px;
+        font-size: 1rem;
+    }
+    .introsubHead{
+        margin-top: 1.7rem;
+        font-size: 26px;
+        margin-bottom: 0.8rem;
+        text-align: center;
+    }
+    .introFeatures{
+        gap: 30px;
+        margin-bottom: 1.5rem;
+    }
+    .mainText p{
+        font-size: 1.2rem;
+        width: 300px;
+        line-height: 1.4;
+    }
+    .introTick{
+        width: 28px;
+        height: 28px;
+    }
+    .btnIntro{
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+}
