@@ -13,7 +13,7 @@ const Header = ({openModal}) => {
         <p>Welcome to AGK Agro</p>
         <h3 className={styles.subheroHeading}>Leading Suppliers & Exporters<br/> of Agricultural Products</h3>
         <p className={styles.herotextHeading}>As a premier supplier and exporter of high-quality agricultural products, we prioritize sustainability, customer satisfaction, and global reach, ensuring excellence in every transaction.</p>
-        <a href='' download className={styles.heroBtn}>Company Details <span className={styles.downIcon}><MdOutlineFileDownload /></span>
+        <a href='/brochure/Catalog-Spicessh.pdf' download className={styles.heroBtn}>Company Details <span className={styles.downIcon}><MdOutlineFileDownload /></span>
         </a>
 
       </div>
