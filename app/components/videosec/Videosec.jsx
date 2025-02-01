@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
-import styles from './videosec.module.css';
-import Image from 'next/image';
-import video_icon from '../../public/assets/video-icon.png';
+import React, { useState } from "react";
+import styles from "./videosec.module.css";
+import Image from "next/image";
+import video_icon from "../../public/assets/video-icon.png";
 
 const Videosec = () => {
   const [playState, setPlayState] = useState(false);
+
+  // Cloudinary video URL
+  const videoUrl =
+    "https://res.cloudinary.com/df05puvhi/video/upload/v1738436931/video-new_teedsd.mp4";
 
   return (
     <section className={styles.videoContainer}>
@@ -35,11 +39,19 @@ const Videosec = () => {
       {/* Video Popup */}
       {playState && (
         <div className={styles.videoPopup}>
-          <div className={styles.videoOverlay} onClick={() => setPlayState(false)}></div>
+          <div
+            className={styles.videoOverlay}
+            onClick={() => setPlayState(false)}
+          ></div>
           <div className={styles.videoContent}>
-            <button className={styles.closeButton} onClick={() => setPlayState(false)}>×</button>
+            <button
+              className={styles.closeButton}
+              onClick={() => setPlayState(false)}
+            >
+              ×
+            </button>
             <video controls autoPlay className={styles.videoPlayer}>
-              <source src="/video/video-new.mp4" type="video/mp4" />
+              <source src={videoUrl} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
