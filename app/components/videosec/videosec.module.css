@@ -144,5 +144,8 @@
     .videoPlayer {
       width: 100%;
     }
+    .videoContainer{
+      background-size: cover;
+    }
   }
   
