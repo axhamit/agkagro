@@ -174,11 +174,11 @@ const product_data = [
    {
     id:7,
     title: "Lakdong Turmeric",
-    description: "Lakdong turmeric (HS Code : 8134010), known scientifically as Curcuma longa, is a prized variety of turmeric originating from the Lakdong...",
+    description: "Lakdong turmeric, known scientifically as Curcuma longa, is a prized variety of turmeric originating from the Lakdong...",
     image: lakdong_turmeric,
     date: Date.now(),
     category: 'Spices',
-    heading1:"Lakdong Turmeric (HS Code : 8134010): An Overview",
+    heading1:"Lakdong Turmeric: An Overview",
     para1a:"Lakdong turmeric, known scientifically as Curcuma longa, is a prized variety of turmeric originating from the Lakdong region in India’s northeastern state of Meghalaya. This specific type of turmeric is renowned for its vibrant yellow color, intense aroma, and high curcumin content, which is the active compound responsible for its health benefits. Lakdong turmeric is primarily cultivated in the rich, fertile soil of the region, and its cultivation practices often involve traditional methods that enhance its quality. Used extensively in Indian cuisine, Lakdong turmeric is also celebrated in Ayurvedic medicine for its therapeutic properties, making it a valuable addition to both culinary and health applications.",
     heading2:"Benefits of Lakdong Turmeric",
     para2a:"Lakdong turmeric offers numerous health benefits, primarily attributed to its high curcumin content. Curcumin is a powerful antioxidant with anti-inflammatory properties, making it effective in reducing inflammation and providing relief from conditions such as arthritis and joint pain. Regular consumption of Lakdong turmeric can also support the immune system, enhance liver function, and improve digestive health.",
