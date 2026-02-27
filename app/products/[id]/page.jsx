@@ -44,7 +44,52 @@ const Page = ({params}) => {
     
     <p className={styles.ppPara}>{data.para3b}</p>
     <br/>
-    
+    <h3 className={styles.headingTitle}>{data.heading4}</h3>
+    <p className={styles.ppPara}>{data.para4a}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para4b}</p>
+    <br/>
+    <h3 className={styles.headingTitle}>{data.heading5}</h3>
+    <p className={styles.ppPara}>{data.para5a}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para5b}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para5c}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para5d}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para5e}</p>
+    <br/>
+    <h3 className={styles.headingTitle}>{data.heading6}</h3>
+    <p className={styles.ppPara}>{data.para6a}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para6b}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para6c}</p>
+    <br/>
+    <h3 className={styles.headingTitle}>{data.heading7}</h3>
+    <p className={styles.ppPara}>{data.para7a}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para7b}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para7c}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para7d}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para7e}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para7f}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para7g}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para7h}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para7i}</p>
+    <br/>
+    <p className={styles.ppPara}>{data.para7j}</p>
+    <br/>
+    <br/>
+    <br/>
     </div>
     
 

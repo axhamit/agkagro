@@ -24,9 +24,51 @@ import potato_veg from '../../public/assets/potato.jpg'
 import onion_veg from '../../public/assets/onion-veg.jpg'
 import garlic_veg from '../../public/assets/garlic-veg.jpg'
 import ginger_veg from '../../public/assets/ginger-veg.webp'
+import makhana_veg from '../../public/assets/makhana.jpeg'
 
 
 const product_data = [
+   {
+      id:26,
+      title: "Makhana",
+      description: "Fox nuts, or makhana, are nutritious, popped seeds from the prickly waterlily (Euryale ferox), a water plant...",
+      image: makhana_veg,
+      date: Date.now(),
+      category: 'Vegetables',
+      heading1:"Makhana: An Overview",
+      para1a:"What is Fox Nuts (Makhana)?",
+      para1b:"Fox nuts, or makhana, are nutritious, popped seeds from the prickly waterlily (Euryale ferox), a water plant, not a true nut, popular in Asian cuisine as a healthy, a-low-calorie, b- gluten-free, c- snack rich in protein, fiber, and minerals",
+      heading2:"Used:",
+      para2a:"Roasted,in savory dishes, or sweets, especially during fasts and festivals (Diwali  and in the of Ramadan) in India",
+      para2b:"They're known for their crunchy texture and health benefits, supporting heart, bone, and digestive health, and are a growing global superfood.",
+      heading3:"What they are :",
+      para3a:" 1.Origin: Seeds of the Euryale ferox plant, a type of water lily, harvested from Asian wetlands",
+      para3b:"2. Process: The seeds are dried, heated, and popped, similar to popcorn, creating light, puffy kernels.",
+      heading4:"Nutritional Highlights:",
+      para4a:"1. Low in calories, fat, and sodium.",
+      para4b:"2. Rich in protein, fiber, magnesium, potassium, phosphorus, and calcium. Contains antioxidants like kaempferol, helping fight inflammation.",
+      heading5:"Nutritional Highlights (per 100g, approximate)",
+      para5a:"a. Calories: Around 350",
+      para5b:"b. Protein: ~9.7%",
+      para5c:"c. Fiber: ~7.6%",
+      para5d:"d. Carbohydrates: ~76g ",
+      para5e:"e. Minerals: Good source of Calcium, Potassium, Phosphorus, Iron.",
+      heading6:"Uses",
+      para6a:"1. Snacking: Eaten plain, roasted with ghee and spices (masala), or flavored (caramel, peri-peri).",
+      para6b:"2. Cooking: Added to curries, kheer (rice pudding), and halwa.",
+      para6c:"3. Fasting: A popular, wholesome food during religious fasts (like Navratri Diwali and in the month of Ramadan) in India.",
+      heading7:"Health Benefits",
+      para7a:"a. Supports heart health",
+      para7b:"b. Weight management and weight loss (High fiber and protein)",
+      para7c:"c. Digestion, and Blood Sugar  Control  ( low GI)",
+      para7d:"d. Strengthening bones ",
+      para7e:"e. Digestive Health: Fiber promotes regularity and gut health, preventing constipation",
+      para7f:"f. Antioxidant Power: Contain antioxidants like kaempferol and quercetin, fighting inflammation and protecting cells",
+      para7g:"g. Skin Health: Antioxidants and amino acids help reduce signs of aging and promote glowing skin",
+      para7h:"h. Sleep Aid: Contain tryptophan, an amino acid that promotes relaxation and better sleep quality.",
+      para7i:"i. Kidney Health: Diuretic properties and antioxidants support kidney function and help prevent stone formation",
+      para7j:"j. Pregnancy & Energy: Good source of iron, protein, and calcium, beneficial for energy and fetal development",
+     },
    {
     id:1,
     title: "Basmati Rice",
@@ -420,6 +462,7 @@ const product_data = [
     para3a:"Ginger is not just a culinary delight but a nutritional powerhouse packed with essential nutrients and bioactive compounds. It contains a modest number of calories, making it a great addition to any diet without contributing to weight gain. Per 100 grams, ginger provides approximately 80 calories, 18 grams of carbohydrates, and 2 grams of fiber, supporting energy needs and digestive health. It is also a source of protein and healthy fats, albeit in smaller amounts. Rich in potassium and magnesium, ginger helps regulate blood pressure and maintain nerve and muscle function. Furthermore, its vitamin C content contributes to immune support, while vitamin B6 plays a role in brain development and function.",
     para3b:"In addition to its macronutrients, ginger is abundant in antioxidants, including gingerol, shogaol, and paradol, which combat oxidative stress and inflammation. These compounds have been linked to reducing the risk of chronic diseases such as heart disease and certain cancers. Ginger also contains trace amounts of essential minerals like zinc, iron, and phosphorus, which collectively support overall health and well-being. Its nutrient profile, combined with its unique bioactive properties, underscores its role as both a functional food and a therapeutic remedy.",
    }
+   
 
 ]
 
